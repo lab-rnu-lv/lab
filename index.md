@@ -35,7 +35,8 @@ title: LAB
 
 - [Главная](index.html)
 - [О проекте](index_1.html)
-- [Контакты](index_2.html)
+- [Контакты](index.html)
+- [Контакты](index.html)
 
 ---
 
