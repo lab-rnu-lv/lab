@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome!
+title: LAB
 ---
 
 <style>
@@ -55,7 +55,7 @@ title: Welcome!
 
 ---
 
-## 📂 Разделы
+## 📂 Разделы📂
 
 <div class="card">
   <h3>📘 О проекте</h3>
