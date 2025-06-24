@@ -14,8 +14,8 @@ title: ISMA
     padding: 0 20px;
   }
   h1, h2, h3 {
-    /* color: #2c3e50; */
-    color: #00ff00
+    color: #2c3e50; 
+    /*color: #00ff00*/
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 4px;
   }
