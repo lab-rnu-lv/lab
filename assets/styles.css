@@ -76,7 +76,23 @@ ul {
 }
 
 .site-nav {
-  text-align: center; /* Центрируем меню */
-  margin: 20px 0;
+  text-align: center;        /* Центрирует содержимое меню */
+  margin: 20px 0;            /* Добавляет отступ сверху и снизу */
+  font-size: 1.1em;          /* (по желанию) немного увеличит шрифт */
 }
 
+.site-nav a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 10px;            /* Расстояние между ссылками */
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
