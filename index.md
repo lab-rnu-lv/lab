@@ -2,7 +2,7 @@
 layout: default
 title: ISMA
 ---
-<link rel="stylesheet" href="style.css">
+
 
 # 👋 Welcome!
 
