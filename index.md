@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ISMA
+title: LAB
 ---
 
 # 👋 Welcome!
