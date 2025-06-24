@@ -1,45 +1,54 @@
-/* Apply base styles to html and body */
-html, body {
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+/* Общие стили для страницы */
+body {
+  font-family: 'Noto Sans', sans-serif; /* Google Font (не забудь подключить в <head>) */
+  background-color: #f9f9f9;            /* Светло-серый фон */
+  color: #333;                          /* Тёмно-серый текст */
+  line-height: 1.6;                     /* Интерлиньяж для читаемости */
   margin: 0;
   padding: 0;
 }
 
-/* Main container: centers the page and limits width */
-.wrapper {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+/* Основной контейнер статьи */
+.post {
+  max-width: 900px;                     /* Ширина контента */
+  margin: 40px auto;                    /* Центрирование */
+  padding: 0 20px;                      /* Отступы по бокам */
+  background: #ffffff;                  /* Белый фон */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Лёгкая тень */
+  border-radius: 8px;                   /* Скругление углов */
 }
 
-/* Ensure content area doesn't overflow */
-.page-content {
-  overflow-x: hidden;
-}
-
-/* Headings styling */
-h1, h2, h3 {
-  color: #2c3e50;
+/* Заголовок блока */
+.post-header {
   border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-/* Links */
+/* Заголовок страницы */
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Основной контент */
+.post-content {
+  font-size: 1rem;
+  padding-bottom: 30px;
+}
+
+/* Ссылки */
 a {
   color: #007acc;
   text-decoration: none;
   font-weight: 500;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
-/* Styled button link */
+/* Кнопка */
 .button {
   display: inline-block;
   margin: 12px 0;
@@ -51,7 +60,7 @@ a:hover {
   font-weight: bold;
 }
 
-/* Card-style blocks */
+/* Секции-карточки (если используешь) */
 .card {
   background: #ffffff;
   border: 1px solid #ddd;
@@ -61,14 +70,7 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* Unordered lists spacing */
+/* Списки */
 ul {
   padding-left: 20px;
-}
-
-/* Optional: remove default spacing around images */
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
 }
