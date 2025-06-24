@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Добро пожаловать
+title: Welcome!
 ---
 
 <style>
