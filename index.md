@@ -3,9 +3,6 @@ layout: page
 title: ISMA
 ---
 
-<link rel="stylesheet" href="{{ '/lab/assets/style.css' | relative_url }}">
-
-
 # 👋 Welcome!
 
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
