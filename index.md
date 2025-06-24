@@ -48,8 +48,8 @@ title: LAB
 
 <style>
   body {
-    /* font-family: 'Segoe UI', sans-serif;  Use Segoe UI font, or a simple sans-serif if not available */
-    background-color: #f9f9f9;           /*Set a very light gray background */
+    font-family: 'Segoe UI', sans-serif; /* Use Segoe UI font, or a simple sans-serif if not available */
+    background-color: #f9f9f9;           /* Set a very light gray background */
     color: #333;                         /* Set dark gray text color */
     line-height: 1.6;                    /* Add space between lines for easier reading */
     max-width: 900px;                    /* Limit the width of the content to 900px */
