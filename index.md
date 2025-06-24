@@ -59,7 +59,7 @@ title: LAB
 
   h1, h2, h3 {
     color: #2c3e50;                     /* This line is commented out – old dark blue heading color */
-    border-bottom: 20px solid #e0e0e0;   /* Add a thin gray line under headings */
+    border-bottom: 2px solid #e0e0e0;   /* Add a thin gray line under headings */
     padding-bottom: 4px;                /* Add a little space between the heading text and the border */
   }
 
