@@ -3,7 +3,8 @@ layout: page
 title: ISMA
 ---
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
+
 
 
 
