@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LAB
+title: ISMA
 ---
 
 <style>
@@ -55,7 +55,7 @@ title: LAB
 
 ---
 
-## 📂 Разделы📂
+## 📂 Разделы
 
 <div class="card">
   <h3>📘 О проекте</h3>
