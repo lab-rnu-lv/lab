@@ -3,7 +3,7 @@ layout: page
 title: ISMA
 ---
 
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/lab/assets/style.css' | relative_url }}">
 
 
 # 👋 Welcome!
