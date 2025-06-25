@@ -69,6 +69,12 @@
   </div>
 {% endif %}
 
+{% if lesson.path == page.path %}
+  <p>DEBUG: Найден урок: {{ lesson.title }}</p>
+  <p>Index: {{ forloop.index0 }}</p>
+{% endif %}
+
+
 <pre>
 {% if prev %} prev: {{ prev.title }} {% else %} prev not found {% endif %}
 {% if next %} next: {{ next.title }} {% else %} next not found {% endif %}
