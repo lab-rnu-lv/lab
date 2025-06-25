@@ -43,13 +43,10 @@
       </article>
 
       <hr>
-{% if total and current_number %}
-  <div class="progress-container">
-    <div class="progress-bar" style="width: {{ current_number | times: 100 | divided_by: total }}%">
-      {{ current_number }}/{{ total }}
-    </div>
-  </div>
-{% endif %}
+
+
+{% assign lessons = site.courses | sort: "order" %}
+{% assign current = nil %}
 
 {% assign lessons = site.courses | sort: "order" %}
 {% for lesson in lessons %}
@@ -61,6 +58,14 @@
     {% assign total = lessons | size %}
   {% endif %}
 {% endfor %}
+
+{% if total and current_number %}
+  <div class="progress-container">
+    <div class="progress-bar" style="width: {{ current_number | times: 100 | divided_by: total }}%">
+      {{ current_number }}/{{ total }}
+    </div>
+  </div>
+{% endif %}
 
 <div class="nav">
   {% if prev %}
