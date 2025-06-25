@@ -139,8 +139,9 @@ header {
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  margin-top: 1em;
+  justify-content: center; /* Центрирует одну или две кнопки */
+  gap: 2rem;                /* Отступ между "Назад" и "Далее" */
+  margin-top: 2rem;
 }
 
 .button {
@@ -149,7 +150,10 @@ header {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: bold;
 }
+
+
 
 
 
