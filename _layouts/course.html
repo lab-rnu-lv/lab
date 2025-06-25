@@ -45,13 +45,19 @@
       <hr>
 
 {% assign lessons = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
+{% assign current_number = nil %}
+{% assign total = lessons | size %}
+
 {% for lesson in lessons %}
-  {% if lesson.url == page.url %}
+  {% if lesson.path == page.path %}
     {% assign index = forloop.index0 %}
-    {% assign prev = lessons[index | minus: 1] %}
-    {% assign next = lessons[index | plus: 1] %}
     {% assign current_number = index | plus: 1 %}
-    {% assign total = lessons | size %}
+    {% if index > 0 %}
+      {% assign prev = lessons[index | minus: 1] %}
+    {% endif %}
+    {% if index < total | minus: 1 %}
+      {% assign next = lessons[index | plus: 1] %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
