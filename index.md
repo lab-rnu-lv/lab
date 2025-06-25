@@ -7,13 +7,8 @@ title: LAB
 
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - <a class="button" href="{{ '/courses/01-intro/' | relative_url }}">📘 Введение в курс 2</a>
-- [MDlink](_courses/01-intro.md)
-- [MDlink](_courses/02-basics.md)
-
--{% if site.github %}[📘 Введение в курс 2](_courses/01-intro.md){% else %}<a class="button" href="{{ '/courses/01-intro/' | relative_url }}">📘 Введение в курс 2</a>{% endif %}
-
-
-
+- [📘 Введение в курс](_courses/01-intro.md)
+- [📘 1-й урок](_courses/02-basics.md)
 
 ---
 
