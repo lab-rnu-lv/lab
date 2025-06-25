@@ -43,24 +43,35 @@
       </article>
 
       <hr>
+{% if total and current_number %}
+  <div class="progress-container">
+    <div class="progress-bar" style="width: {{ current_number | times: 100 | divided_by: total }}%">
+      {{ current_number }}/{{ total }}
+    </div>
+  </div>
+{% endif %}
 
-      {% assign lessons = site.courses | sort: 'order' %}
-      {% for lesson in lessons %}
-        {% if lesson.url == page.url %}
-          {% assign index = forloop.index0 %}
-          {% assign prev = lessons[index | minus: 1] %}
-          {% assign next = lessons[index | plus: 1] %}
-        {% endif %}
-      {% endfor %}
+{% assign lessons = site.courses | sort: "order" %}
+{% for lesson in lessons %}
+  {% if lesson.url == page.url %}
+    {% assign index = forloop.index0 %}
+    {% assign prev = lessons[index | minus: 1] %}
+    {% assign next = lessons[index | plus: 1] %}
+    {% assign current_number = index | plus: 1 %}
+    {% assign total = lessons | size %}
+  {% endif %}
+{% endfor %}
 
-      <div class="nav">
-        {% if prev %}
-          ← <a href="{{ prev.url }}">{{ prev.title }}</a>
-        {% endif %}
-        {% if next %}
-          <a href="{{ next.url }}">{{ next.title }}</a> →
-        {% endif %}
-      </div>
+<div class="nav">
+  {% if prev %}
+    ← <a class="button" href="{{ prev.url | relative_url }}">Назад: {{ prev.title }}</a>
+  {% endif %}
+
+  {% if next %}
+    <a class="button" href="{{ next.url | relative_url }}">Далее: {{ next.title }}</a> →
+  {% endif %}
+</div>
+
 
     </div>
   </main>
