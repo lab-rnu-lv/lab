@@ -44,30 +44,32 @@
 
       <hr>
 
+{% comment %} Получить список уроков, исключив те, у которых exclude_from_course: true {% endcomment %}
 {% assign lessons = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
-{% assign current_number = nil %}
 {% assign total = lessons | size %}
 
-{% for lesson in lessons %}
-  {% if lesson.path == page.path %}
-    {% assign index = forloop.index0 %}
-    {% assign current_number = index | plus: 1 %}
-    {% if index > 0 %}
-      {% assign prev = lessons[index | minus: 1] %}
-    {% endif %}
-    {% if index < total | minus: 1 %}
-      {% assign next = lessons[index | plus: 1] %}
-    {% endif %}
+{% assign current_number = nil %}
+{% assign prev = nil %}
+{% assign next = nil %}
+{% assign prev_index = nil %}
+{% assign next_index = nil %}
+{% assign found = false %}
 
-    <!-- отладка внутри блока -->
-    <pre>
-    DEBUG: Найден урок: {{ lesson.title }}
-    Index: {{ index }}
-    {% if prev %} prev: {{ prev.title }} {% else %} prev not found {% endif %}
-    {% if next %} next: {{ next.title }} {% else %} next not found {% endif %}
-    </pre>
+{% for lesson in lessons %}
+  {% if lesson.url == page.url and found == false %}
+    {% assign current_number = forloop.index %}
+    {% assign prev_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+    {% assign found = true %}
   {% endif %}
 {% endfor %}
+
+{% if prev_index != nil and prev_index >= 0 %}
+  {% assign prev = lessons[prev_index] %}
+{% endif %}
+{% if next_index != nil and next_index < total %}
+  {% assign next = lessons[next_index] %}
+{% endif %}
 
 {% if total and current_number %}
   <div class="progress-container">
@@ -77,6 +79,9 @@
   </div>
 {% endif %}
 
+<p>Текущий урок: {{ page.title }}</p>
+<p>Предыдущий: {% if prev %}{{ prev.title }}{% else %}—{% endif %}</p>
+<p>Следующий: {% if next %}{{ next.title }}{% else %}—{% endif %}</p>
 
 <div class="nav">
   {% if prev %}
@@ -87,6 +92,7 @@
     <a class="button" href="{{ next.url | relative_url }}">Далее: {{ next.title }}</a> →
   {% endif %}
 </div>
+
 
 
     </div>
