@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Все уроки
+title: all courses
 ---
 
 <ul>
