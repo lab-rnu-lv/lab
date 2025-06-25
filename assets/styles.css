@@ -106,5 +106,19 @@ header {
   margin: 0 auto;
 }
 
+.site-footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 
 
