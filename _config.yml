@@ -1,3 +1,8 @@
 title: LAB
 description: lab
 theme: null
+
+collections:
+  courses:
+    output: true     
+    permalink: /courses/:name/
