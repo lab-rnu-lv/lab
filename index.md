@@ -35,10 +35,10 @@ title: LAB
 
 ## 📌 Навигация
 
-- [Главная](index.html)
-- [О проекте](index_1.html)
-- [Контакты](index.html)
-- [Контакты](index.html)
+- [Home](index.html)
+- [Courses](_courses/all-courses.md)
+- [Projects](_projects/all-projects.md)
+- [News](_news/all-news.md)
 
 ---
 
