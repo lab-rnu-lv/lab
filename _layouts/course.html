@@ -67,6 +67,11 @@
   </div>
 {% endif %}
 
+<p>Текущий урок: {{ page.title }}</p>
+<p>Предыдущий: {{ prev.title }}</p>
+<p>Следующий: {{ next.title }}</p>
+
+
 <div class="nav">
   {% if prev %}
     ← <a class="button" href="{{ prev.url | relative_url }}">Назад: {{ prev.title }}</a>
