@@ -9,11 +9,7 @@ title: LAB
 - <a class="button" href="{{ '/courses/01-intro/' | relative_url }}">📘 Введение в курс 2</a>
 - [MDlink](_courses/01-intro.md)
 
-{% if site.github %}
-  [📘 Введение в курс 2](_courses/01-intro.md)
-{% else %}
-  <a class="button" href="{{ '/courses/01-intro/' | relative_url }}">📘 Введение в курс 2</a>
-{% endif %}
+-{% if site.github %}[📘 Введение в курс 2](_courses/01-intro.md){% else %}<a class="button" href="{{ '/courses/01-intro/' | relative_url }}">📘 Введение в курс 2</a>{% endif %}
 
 
 
