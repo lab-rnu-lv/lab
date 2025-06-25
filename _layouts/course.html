@@ -44,10 +44,7 @@
 
       <hr>
 
-
 {% assign lessons = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
-
-{% assign lessons = site.courses | sort: "order" %}
 {% for lesson in lessons %}
   {% if lesson.url == page.url %}
     {% assign index = forloop.index0 %}
