@@ -1,6 +1,7 @@
 ---
 layout: course
 title: all-courses
+exclude_from_course: true
 ---
 
 <ul>
