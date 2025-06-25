@@ -49,7 +49,7 @@
 {% assign total = lessons | size %}
 
 {% for lesson in lessons %}
-  {% if lesson.url == page.url %}
+  {% if lesson.path == page.path %}
     {% assign index = forloop.index0 %}
     {% assign current_number = index | plus: 1 %}
     {% if index > 0 %}
@@ -59,9 +59,9 @@
       {% assign next = lessons[index | plus: 1] %}
     {% endif %}
 
-    <!-- DEBUG -->
+    <!-- отладка внутри блока -->
     <pre>
-    Найден урок: {{ lesson.title }}
+    DEBUG: Найден урок: {{ lesson.title }}
     Index: {{ index }}
     {% if prev %} prev: {{ prev.title }} {% else %} prev not found {% endif %}
     {% if next %} next: {{ next.title }} {% else %} next not found {% endif %}
@@ -77,10 +77,30 @@
   </div>
 {% endif %}
 
+{% if lesson.path == page.path %}
+  <p>DEBUG: Найден урок: {{ lesson.title }}</p>
+  <p>Index: {{ forloop.index0 }}</p>
+{% endif %}
+
+
+<pre>
+{% if prev %} prev: {{ prev.title }} {% else %} prev not found {% endif %}
+{% if next %} next: {{ next.title }} {% else %} next not found {% endif %}
+</pre>
+    
 <p>Текущий урок: {{ page.title }}</p>
 <p>Предыдущий: {{ prev.title }}</p>
 <p>Следующий: {{ next.title }}</p>
 
+
+<div class="nav">
+  {% if prev %}
+    ← <a class="button" href="{{ prev.url | relative_url }}">Назад: {{ prev.title }}</a>
+  {% endif %}
+
+  {% if next %}
+    <a class="button" href="{{ next.url | relative_url }}">Далее: {{ next.title }}</a> →
+  {% endif %}
 </div>
 
 
