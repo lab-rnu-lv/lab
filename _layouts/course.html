@@ -30,10 +30,10 @@
 
         <div class="meta">
           {% if page.duration %}
-            ⏱ <strong>Время:</strong> {{ page.duration }}<br>
+            ⏱ <strong>Time:</strong> {{ page.duration }}<br>
           {% endif %}
           {% if page.level %}
-            📚 <strong>Уровень:</strong> {{ page.level }}
+            📚 <strong>Level:</strong> {{ page.level }}
           {% endif %}
         </div>
 
@@ -79,17 +79,13 @@
   </div>
 {% endif %}
 
-<p>Текущий урок: {{ page.title }}</p>
-<p>Предыдущий: {% if prev %}{{ prev.title }}{% else %}—{% endif %}</p>
-<p>Следующий: {% if next %}{{ next.title }}{% else %}—{% endif %}</p>
-
 <div class="nav">
   {% if prev %}
-    ← <a class="button" href="{{ prev.url | relative_url }}">Назад: {{ prev.title }}</a>
+    ← <a class="button" href="{{ prev.url | relative_url }}">PREV- {{ prev.title }}</a>
   {% endif %}
 
   {% if next %}
-    <a class="button" href="{{ next.url | relative_url }}">Далее: {{ next.title }}</a> →
+    <a class="button" href="{{ next.url | relative_url }}">NEXT- {{ next.title }}</a> →
   {% endif %}
 </div>
 
