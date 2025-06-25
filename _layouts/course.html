@@ -69,6 +69,11 @@
   </div>
 {% endif %}
 
+<pre>
+{% if prev %} prev: {{ prev.title }} {% else %} prev not found {% endif %}
+{% if next %} next: {{ next.title }} {% else %} next not found {% endif %}
+</pre>
+    
 <p>Текущий урок: {{ page.title }}</p>
 <p>Предыдущий: {{ prev.title }}</p>
 <p>Следующий: {{ next.title }}</p>
