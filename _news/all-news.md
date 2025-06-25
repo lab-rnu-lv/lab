@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Все уроки
+title: all-news
 ---
 
 <ul>
-  {% assign sorted_courses = site.courses | sort: "order" %}
-  {% for course in sorted_courses %}
+  {% assign sorted_news = site.news | sort: "date" | reverse %}
+  {% for news in sorted_news %}
     <li>
-      <a href="{{ course.url | absolute_url }}">{{ course.title }}</a> 
+      <a href="{{ news.url | relative_url }}">{{ news.title }}</a> — {{ news.date | date: "%d.%m.%Y" }}
     </li>
   {% endfor %}
 </ul>
