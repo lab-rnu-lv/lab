@@ -1,3 +1,6 @@
+url: "https://boris-isma-4240.github.io"
+baseurl: "/lab"  # comment
+
 title: LAB
 description: lab
 theme: null
