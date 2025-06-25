@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Все уроки
+title: all-projects
 ---
 
 <ul>
-  {% assign sorted_courses = site.courses | sort: "order" %}
-  {% for course in sorted_courses %}
+  {% assign sorted_projects = site.projects | sort: "order" %}
+  {% for project in sorted_projects %}
     <li>
-      <a href="{{ course.url | absolute_url }}">{{ course.title }}</a> 
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
     </li>
   {% endfor %}
 </ul>
