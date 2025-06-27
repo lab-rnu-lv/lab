@@ -1,159 +1,149 @@
 /* Общие стили для страницы */
 body {
-  font-family: 'Noto Sans', sans-serif; /* Google Font (не забудь подключить в <head>) */
-  background-color: #f9f9f9;            /* Светло-серый фон */
-  color: #333;                          /* Тёмно-серый текст */
-  line-height: 1.6;                     /* Интерлиньяж для читаемости */
-  margin: 0;
-  padding: 0;
+  font-family: 'Noto Sans', sans-serif; /* Использует шрифт 'Noto Sans' (резерв — sans-serif) */
+  background-color: #f9f9f9;            /* Устанавливает светло-серый фон страницы */
+  color: #333;                          /* Задаёт тёмно-серый цвет текста */
+  line-height: 1.6;                     /* Расстояние между строками для удобства чтения */
+  margin: 0;                            /* Убирает внешние отступы у body */
+  padding: 0;                           /* Убирает внутренние отступы у body */
 }
 
 /* Основной контейнер статьи */
 .post {
-  max-width: 900px;                     /* Ширина контента */
-  margin: 40px auto;                    /* Центрирование */
-  padding: 0 20px;                      /* Отступы по бокам */
+  max-width: 900px;                     /* Максимальная ширина контейнера — 900px */
+  margin: 40px auto;                    /* Отступ сверху и снизу — 40px, по центру по горизонтали */
+  padding: 0 20px;                      /* Внутренние отступы слева и справа — 20px */
   background: #ffffff;                  /* Белый фон */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Лёгкая тень */
-  border-radius: 8px;                   /* Скругление углов */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Лёгкая тень под блоком */
+  border-radius: 8px;                   /* Скруглённые углы */
 }
 
 /* Заголовок блока */
 .post-header {
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;     /* Нижняя граница — светло-серая линия */
+  padding-bottom: 10px;                /* Отступ снизу внутри блока */
+  margin-bottom: 20px;                 /* Отступ снизу снаружи блока */
 }
 
 /* Заголовок страницы */
 .post-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #2c3e50;
+  font-size: 2rem;                     /* Размер шрифта — 2 раза больше базового */
+  font-weight: bold;                  /* Жирное начертание */
+  color: #2c3e50;                     /* Тёмно-синий цвет текста */
 }
 
 /* Основной контент */
 .post-content {
-  font-size: 1rem;
-  padding-bottom: 30px;
+  font-size: 1rem;                    /* Обычный размер шрифта */
+  padding-bottom: 30px;              /* Отступ снизу */
 }
 
 /* Ссылки */
 a {
-  color: #007acc;
-  text-decoration: none;
-  font-weight: 500;
+  color: #007acc;                    /* Синий цвет для ссылок */
+  text-decoration: none;            /* Убирает подчёркивание */
+  font-weight: 500;                 /* Средняя жирность */
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline;       /* Показывает подчёркивание при наведении */
 }
 
 /* Кнопка */
 .button {
-  display: inline-block;
-  margin: 12px 0;
-  padding: 10px 18px;
-  background-color: #007acc;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
+  display: inline-block;            /* Блочный элемент, но на одной строке */
+  margin: 12px 0;                   /* Вертикальные отступы */
+  padding: 0.5em 1em;               /* Отступы внутри кнопки */
+  background-color: #007acc;        /* Синий фон */
+  color: white;                     /* Белый текст */
+  border-radius: 6px;               /* Скруглённые углы */
+  text-decoration: none;           /* Без подчёркивания */
+  font-weight: bold;               /* Жирный текст */
 }
 
-/* Секции-карточки (если используешь) */
+/* Секции-карточки */
 .card {
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background: #ffffff;              /* Белый фон */
+  border: 1px solid #ddd;           /* Светлая рамка */
+  border-radius: 8px;               /* Скругление углов */
+  padding: 20px;                    /* Отступ внутри */
+  margin: 20px 0;                   /* Отступ сверху и снизу */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Лёгкая тень */
 }
 
 /* Списки */
 ul {
-  padding-left: 20px;
+  padding-left: 20px;              /* Отступ слева для маркеров */
 }
 
+/* Навигация сайта (меню) */
 .site-nav {
-  text-align: center;        /* Центрирует содержимое меню */
-  margin: 20px 0;            /* Добавляет отступ сверху и снизу */
-  font-size: 1.1em;          /* (по желанию) немного увеличит шрифт */
+  text-align: center;              /* Центрирует всё содержимое */
+  margin: 20px 0;                  /* Отступ сверху и снизу */
+  font-size: 1.1em;                /* Чуть больше шрифт, чем обычно */
 }
-
 .site-nav a {
-  color: #007acc;
-  text-decoration: none;
-  margin: 0 10px;            /* Расстояние между ссылками */
+  color: #007acc;                  /* Синий цвет ссылок */
+  text-decoration: none;          /* Без подчёркивания */
+  margin: 0 10px;                  /* Отступ слева и справа между ссылками */
 }
-
 .site-nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline;     /* Показывает подчёркивание при наведении */
 }
 
+/* Общий контейнер */
 .container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 900px;               /* Максимальная ширина — 900px */
+  margin: 0 auto;                 /* Центрирует блок по горизонтали */
+  padding: 0 20px;                /* Отступ слева и справа */
 }
 
+/* Шапка */
 header {
-  display: flex;
-  justify-content: space-between; /* или center для центрирования */
-  align-items: center;
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto;
+  display: flex;                  /* Использует flex-контейнер */
+  justify-content: space-between;/* Элементы по краям: слева и справа */
+  align-items: center;           /* Выравнивание по вертикали по центру */
+  padding: 20px;                 /* Отступы внутри шапки */
+  max-width: 900px;              /* Ограничение ширины */
+  margin: 0 auto;                /* Центрирование */
 }
 
+/* Футер сайта */
 .site-footer {
-  background-color: #f9f9f9;
-  padding: 20px 0;
-  font-size: 0.9rem;
-  color: #666;
+  background-color: #f9f9f9;     /* Светлый фон */
+  padding: 20px 0;               /* Отступы сверху и снизу */
+  font-size: 0.9rem;             /* Немного меньший шрифт */
+  color: #666;                   /* Светло-серый текст */
 }
-
 .footer-content {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
+  max-width: 900px;              /* Ограничение ширины */
+  margin: 0 auto;                /* Центрирование */
+  text-align: center;           /* Центрированный текст */
 }
 
+/* Прогресс-бар: внешний контейнер */
 .progress-container {
-  width: 100%;
-  background-color: #eee;
-  border-radius: 20px;
-  margin: 1em 0;
+  width: 100%;                   /* Занимает всю ширину */
+  background-color: #eee;       /* Светло-серый фон */
+  border-radius: 20px;          /* Скруглённые края */
+  margin: 1em 0;                 /* Отступ сверху и снизу */
 }
 
+/* Сам прогресс (внутри контейнера) */
 .progress-bar {
-  height: 20px;
-  background-color: #007acc;
-  color: white;
-  text-align: center;
-  line-height: 20px;
-  border-radius: 20px;
-  font-size: 14px;
-  transition: width 0.3s ease;
+  height: 20px;                  /* Высота полоски */
+  background-color: #007acc;     /* Синий цвет */
+  color: white;                  /* Цвет текста */
+  text-align: center;           /* Текст по центру */
+  line-height: 20px;            /* Центрирование текста по вертикали */
+  border-radius: 20px;          /* Скруглённые края */
+  font-size: 14px;              /* Размер текста */
+  transition: width 0.3s ease;  /* Анимация ширины */
 }
 
+/* Навигация между уроками */
 .nav {
-  display: flex;
-  justify-content: center; /* Центрирует одну или две кнопки */
-  gap: 2rem;                /* Отступ между "Назад" и "Далее" */
-  margin-top: 2rem;
+  display: flex;                 /* Flex-контейнер */
+  justify-content: center;      /* Центрирует кнопки */
+  gap: 2rem;                     /* Отступ между кнопками */
+  margin-top: 2rem;             /* Отступ сверху */
 }
-
-.button {
-  padding: 0.5em 1em;
-  background: #007acc;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-
-
-
-
