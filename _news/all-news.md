@@ -1,6 +1,6 @@
 ---
 layout: page
-title: all-news
+title: NEWS
 ---
 
 <ul>
