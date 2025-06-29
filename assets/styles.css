@@ -16,7 +16,6 @@ body {
   background: #ffffff;                  /* Белый фон */
   box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Лёгкая тень под блоком */
   border-radius: 8px;                   /* Скруглённые углы */
-  margin-top: 10px;
 }
 
 /* Заголовок блока */
@@ -78,9 +77,8 @@ ul {
 
 /* Навигация сайта (меню) */
 .site-nav {
-  margin: 0 0 10px;
   text-align: center;              /* Центрирует всё содержимое */
-  /*margin: 20px 0;                   Отступ сверху и снизу */
+  margin: 20px 0;                  /* Отступ сверху и снизу */
   font-size: 1.1em;                /* Чуть больше шрифт, чем обычно */
 }
 .site-nav a {
