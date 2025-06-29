@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: page
 title: all-courses
 exclude_from_course: true
 ---
