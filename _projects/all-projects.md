@@ -1,6 +1,6 @@
 ---
 layout: page
-title: all-projects
+title: PROJECTS
 ---
 
 <ul>
