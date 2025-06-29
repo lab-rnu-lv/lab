@@ -80,7 +80,7 @@ ul {
 .site-nav {
   margin: 0 0 10px;
   text-align: center;              /* Центрирует всё содержимое */
-  /*margin: 20px 0;                  /* Отступ сверху и снизу */
+  /*margin: 20px 0;                   Отступ сверху и снизу */
   font-size: 1.1em;                /* Чуть больше шрифт, чем обычно */
 }
 .site-nav a {
