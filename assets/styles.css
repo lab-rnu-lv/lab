@@ -102,7 +102,7 @@ header {
   display: flex;                  /* Использует flex-контейнер */
   justify-content: space-between;/* Элементы по краям: слева и справа */
   align-items: center;           /* Выравнивание по вертикали по центру */
-  padding: 20px;                 /* Отступы внутри шапки */
+  padding: 10px;                 /* Отступы внутри шапки */
   max-width: 900px;              /* Ограничение ширины */
   margin: 0 auto;                /* Центрирование */
 }
