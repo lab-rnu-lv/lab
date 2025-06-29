@@ -113,7 +113,7 @@ header {
   padding: 20px 0;               /* Отступы сверху и снизу */
   font-size: 0.9rem;             /* Немного меньший шрифт */
   color: #666;                   /* Светло-серый текст */
-  text-align: left; 
+  text-align: center; 
 }
 .footer-content {
   max-width: 900px;              /* Ограничение ширины */
