@@ -1,6 +1,6 @@
 ---
 layout: page
-title: all-courses
+title: COURSES
 exclude_from_course: true
 ---
 
