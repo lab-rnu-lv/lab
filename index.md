@@ -4,44 +4,36 @@ title: LAB
 ---
 
 # 👋 Welcome!
-это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-
 
 ---
 
 ## 📘 Courses
-Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-- [✅ All courses](_courses/all-courses.md)
-  
-<div class="card">
-  <h3>✅Courses</h3>
-  <p>Узнайте больше о цели, функциях и развитии проекта.</p>
-  <a href="index.html" class="button">Перейти</a>
-</div>
+Here is information about the courses
+- ✅ ROBOTICS
+- [📂 All courses](_courses/all-courses.md)
+
 ---
 
-## 📂 Projects
-Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-- [✅ All projects](_courses/all-projects.md)
-  
-<div class="card">
-  <h3>📬 Контакты</h3>
-  <p>Как со мной связаться, обратная связь и соцсети.</p>
-  <a href="index.html" class="button">Перейти</a>
-  </div>
+## 💡 Projects
+Here is information about the projects
+- ✅ ARDUINO-2BUTTONS
+- [📂 All projects](_courses/all-projects.md)
+
 ---
+
 
 ## 📌 News  <!-- last 3 news -->
-Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-- ✅ Добавлена разметка (24.06.2025)
+- ✅ LAB web-site start (01.10.2025)
+- [📂 All news](_news/all-news.md)
+
 ---
-## 📌 Contacts  <!-- e-mail -->
-<div class="card">
-  <h3>📨 E-MAIL</h3>
-  ![Email]({{ site.baseurl }}/assets/images/email.jpg)
-  <a href="mailto:lab.rnu&#64;gmail&#46;com" class="button">lab.rnu.lv@gmail.com</a>
-  <a href="mailto:lab.rnu&#64;gmail&#46;com" >lab.rnu.lv@gmail.com</a>
+
+## 📨 E-MAIL  <!-- e-mail -->
+
+  <div class="card">
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/email.jpg" alt="Email address" width="240">
   </div>
+
 ---
 
 
