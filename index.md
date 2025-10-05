@@ -39,8 +39,7 @@ title: LAB
 <div class="card">
   <h3>📨 E-MAIL</h3>
   <p>Please write THEMA (?????)</p>
-  <a href="mailto:lab.rnu&#64;gmail&#46;com">lab.rnu&#64;gmail&#46;com</a>
-  <a href="index.html" class="button">lab.rnu.lv@gmail.com</a>
+  <a href="mailto:lab.rnu&#64;gmail&#46;com" class="button">lab.rnu&#64;gmail&#46;com</a>
   </div>
 ---
 
