@@ -5,7 +5,7 @@ exclude_from_projects: true
 ---
 
 # 🛠️ ROBOTICS projects
-Here you can explore ROBOTICS students projects.
+Here you can explore ROBOTICS students projects.<br>
 The best projects will participate in the exhibition "IoT Projects Exhibition" (DECEMBER 2025).
 
 ---
