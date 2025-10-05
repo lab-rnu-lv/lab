@@ -7,13 +7,9 @@ exclude_from_course: true
 
 # 📚 Available Courses
 
-Welcome to our course list!  
-Here you can explore all available topics sorted by category.
+Here you can explore all available courses.
 
 ---
-
-<h1>🎓 Course Catalog</h1>
-<p>Explore our latest modules and lessons below.</p>
 
 <div class="course-list">
   {% assign sorted_courses = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
