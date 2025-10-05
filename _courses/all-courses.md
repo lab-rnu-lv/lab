@@ -5,9 +5,9 @@ exclude_from_course: true
 ---
 
 
-# 📚 Available Courses
+# 📚 ROBOTICS
 
-Here you can explore all available courses.
+Here you can explore information and tasks for ROBOTICS students.
 
 ---
 
