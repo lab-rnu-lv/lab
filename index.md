@@ -35,10 +35,10 @@ title: LAB
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - ✅ Добавлена разметка (24.06.2025)
 ---
-## 📌 Contacts  <!-- e-mail -->
-📨 E-MAIL ![Email]({{ site.baseurl }}/assets/images/email.jpg)
 
-<p align="center">
+## 📌 Contacts  <!-- e-mail -->
+
+<p align="left">
   <div class="card" style="padding: 10px; border: 1px solid #ddd; border-radius: 10px; display: inline-block; text-align: center;">
     <h3>📨 E-MAIL</h3>
     <img src="{{ site.baseurl }}/assets/images/email.jpg" alt="Email address" width="240">
