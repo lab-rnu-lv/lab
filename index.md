@@ -36,12 +36,10 @@ title: LAB
 - ✅ Добавлена разметка (24.06.2025)
 ---
 ## 📌 Contacts  <!-- e-mail -->
+![Email]({{ site.baseurl }}/assets/images/email.jpg)
 <div class="card">
   <h3>📨 E-MAIL</h3>
-  ![Email]({{ site.baseurl }}/assets/images/email.jpg)
-  <a href="mailto:lab.rnu&#64;gmail&#46;com" class="button">lab.rnu.lv@gmail.com</a>
-  <a href="mailto:lab.rnu&#64;gmail&#46;com" >lab.rnu.lv@gmail.com</a>
-  </div>
+</div>
 ---
 
 
