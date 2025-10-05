@@ -34,9 +34,10 @@ title: LAB
 ## 📌 News  <!-- last 3 news -->
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - ✅ Добавлена разметка (24.06.2025)
+  
 ---
-
-## 📌 Contacts  <!-- e-mail -->
+---
+## 📨 Contacts  <!-- e-mail -->
 
 <p align="left">
   <div class="card" style="padding: 10px; border: 1px solid #ddd; border-radius: 10px; display: inline-block; text-align: center;">
