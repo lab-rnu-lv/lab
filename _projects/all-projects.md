@@ -4,8 +4,9 @@ title: PROJECTS
 exclude_from_projects: true
 ---
 
-# 📚 ROBOTICS projects
+# 🛠️ ROBOTICS projects
 Here you can explore ROBOTICS students projects.
+The best projects will participate in the exhibition "IoT Projects Exhibition" (DECEMBER 2025).
 
 ---
 
