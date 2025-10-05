@@ -35,4 +35,13 @@ title: LAB
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - ✅ Добавлена разметка (24.06.2025)
 ---
+## 📌 Contacts  <!-- e-mail -->
+<div class="card">
+  <h3>📨 E-MAIL</h3>
+  <p>Please write THEMA (?????)</p>
+  <a href="mailto:lab.rnu&#64;gmail&#46;com">lab.rnu&#64;gmail&#46;com</a>
+  <a href="index.html" class="button">lab.rnu.lv@gmail.com</a>
+  </div>
+---
+
 ![Logo]({{ site.baseurl }}/assets/images/RNU_logo_long.jpg)
