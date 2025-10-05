@@ -5,8 +5,6 @@ title: LAB
 
 # 👋 Welcome!
 это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-
-
 ---
 
 ## 📘 Courses
@@ -23,23 +21,15 @@ title: LAB
 ## 📂 Projects
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - [✅ All projects](_courses/all-projects.md)
-  
-<div class="card">
-  <h3>📬 Контакты</h3>
-  <p>Как со мной связаться, обратная связь и соцсети.</p>
-  <a href="index.html" class="button">Перейти</a>
-  </div>
 ---
 
 ## 📌 News  <!-- last 3 news -->
 Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 - ✅ Добавлена разметка (24.06.2025)
 - [✅ All news](_news/all-news.md)
-  
 ---
 
 ## 📨 E-MAIL  <!-- e-mail -->
-
 <p align="left">
   <div class="card" style="padding: 10px; border: 1px solid #ddd; border-radius: 10px; display: inline-block; text-align: center;">
      <img src="https://lab-rnu-lv.github.io/lab/assets/images/email.jpg" alt="Email address" width="240">
