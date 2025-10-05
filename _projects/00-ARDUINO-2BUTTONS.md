@@ -4,46 +4,43 @@ order: 1                      # Порядок отображения (очен�
 layout: course                # Какой шаблон использовать
 ---
 
-# 👋 Welcome!
-
-Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
-
 ---
 
-## 📂 Разделы
+## 📘 PROJECT DESCRIPTION
 
 <div class="card">
-  <h3>📘 О проекте</h3>
-  <p>Узнайте больше о цели, функциях и развитии проекта.</p>
-  <a href="index_1.html" class="button">Перейти</a>
-</div>
-
-<div class="card">
-  <h3>📬 Контакты</h3>
-  <p>Как со мной связаться, обратная связь и соцсети.</p>
-  <a href="index_2.html" class="button">Перейти</a>
+  <h3>📘 About project (50-150 words)</h3>
+  <p>Reaction Speed Tester for Left and Right Hand:<br>
+This project allows you to test the reaction speed of your left and right hand using Arduino, a display, and two buttons.
+The program will record the time it takes to press each button, compare the times, display the result in milliseconds, and turn on the corresponding LED.
+After every 10 pairs of button presses, the average value will be displayed on the screen, and the corresponding LED will light up. </p>
+  <a href="https://boris-isma-4240.github.io/arduino-2buttons/" class="button">Project page</a>
 </div>
 
 ---
 
-## 🖼 Галерея
-
-![Пример изображения](img/example.jpg)
-
----
-
-## 📌 Навигация
-
-- [Главная](index.html)
-- [О проекте](index_1.html)
-- [Контакты](index_2.html)
+## 🔗 PROJECT WEB-PAGE
+<div class="card">
+<h3>📘Project WEB-page link</h3>
+    <a href="https://boris-isma-4240.github.io/arduino-2buttons/" class="button">Project page</a>
+</div>
 
 ---
 
-## 📅 Обновления
+## 🚀 STATUS
+<div class="card">
+<h3>📘Participant of exhibition</h3>
+    <a href="https://ismaitm.lv/archive/isma-itm-conference-2024/)" class="button">ISMA IT&M Conference 2024</a>
+</div>
 
-- ✅ Добавлена разметка (24.06.2025)
-- 🚧 В разработке новая подстраница: *index_3.md*
+
+---
+
+## 📅 TIMELINE
+
+- ✅ Started (28.02.2025)
+- ✅ Сompleted (24.05.2025)
+
 
 ---
 
