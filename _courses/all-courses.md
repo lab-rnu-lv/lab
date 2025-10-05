@@ -12,21 +12,18 @@ Here you can explore all available topics sorted by category.
 
 ---
 
-{% assign sorted_courses = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
+<h1>🎓 Course Catalog</h1>
+<p>Explore our latest modules and lessons below.</p>
 
-{% for course in sorted_courses %}
-- 🎓 **[{{ course.title }}]({{ course.url }})**
-  <br>📘 {{ course.description }}
-  <br>🕒 Duration: {{ course.duration }}
-  <br>🏁 Level: {{ course.level }}
-  <br>
-{% endfor %}
-
-<ul>
+<div class="course-list">
   {% assign sorted_courses = site.courses | where_exp: "item", "item.exclude_from_course != true" | sort: "order" %}
   {% for course in sorted_courses %}
-    <li>
-      <a href="{{ course.url | absolute_url }}">{{ course.title }}</a>
-    </li>
+    <div class="course-card">
+      <h2><a href="{{ site.baseurl }}{{ course.url }}">{{ course.title }}</a></h2>
+      <p>{{ course.description }}</p>
+      <p><strong>Duration:</strong> {{ course.duration }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>
+
+
