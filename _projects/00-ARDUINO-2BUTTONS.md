@@ -13,9 +13,7 @@ layout: course                # Какой шаблон использовать
   <p>Reaction Speed Tester for Left and Right Hand:<br>
 This project allows you to test the reaction speed of your left and right hand using Arduino, a display, and two buttons.
 The program will record the time it takes to press each button, compare the times, display the result in milliseconds, and turn on the corresponding LED.
-After every 10 pairs of button presses, the average value will be displayed on the screen, and the corresponding LED will light up. </p>
-  <a href="https://boris-isma-4240.github.io/arduino-2buttons/" class="button">Project page</a>
-</div>
+After every 10 pairs of button presses, the average value will be displayed on the screen, and the corresponding LED will light up. 
 
 ---
 
