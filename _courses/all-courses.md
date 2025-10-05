@@ -17,7 +17,7 @@ Here you can explore information and tasks for ROBOTICS students.
     <div class="course-card">
       <h2><a href="{{ site.baseurl }}{{ course.url }}">{{ course.title }}</a></h2>
       <p>{{ course.description }}</p>
-      <p><strong>Duration:</strong> {{ course.duration }}</p>
+      <p><strong>Deadline:</strong> {{ course.deadline }}</p>
     </div>
   {% endfor %}
 </div>
