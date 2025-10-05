@@ -23,7 +23,7 @@ Here is information about the projects
 
 
 ## 📌 News  <!-- last 3 news -->
-- ✅ LAB site start (01.10.2025)
+- ✅ LAB web-site start (01.10.2025)
 - [📂 All news](_news/all-news.md)
 
 ---
