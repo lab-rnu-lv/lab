@@ -38,9 +38,9 @@ title: LAB
 ## 📌 Contacts  <!-- e-mail -->
 <div class="card">
   <h3>📨 E-MAIL</h3>
-  <p>Please write THEMA (?????)</p>
+  ![Logo]({{ site.baseurl }}/assets/images/email.jpg)
   <a href="mailto:lab.rnu&#64;gmail&#46;com" class="button">lab.rnu&#64;gmail&#46;com</a>
   </div>
 ---
 
-![Logo]({{ site.baseurl }}/assets/images/RNU_logo_long.jpg)
+
