@@ -9,7 +9,7 @@ layout: course                # Какой шаблон использовать
 
 ---
 
-# 📅 Preparation
+# 📅 PREPARETIONS
 
 
 
@@ -21,7 +21,7 @@ layout: course                # Какой шаблон использовать
 
 ---
 
-# ✅ Results
+# ✅ RESULTS
 - register on the website
 - 
 ---
