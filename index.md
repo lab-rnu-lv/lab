@@ -9,15 +9,15 @@ title: LAB
 
 ## 📘 Courses
 Here is information about the courses
-- ✅ ROBOTICS
+- [✅ ROBOTICS](_courses/all-courses.md)
 - [📂 All courses](_courses/all-courses.md)
 
 ---
 
 ## 💡 Projects
 Here is information about the projects
-- ✅ ARDUINO-2BUTTONS
-- [📂 All projects](_courses/all-projects.md)
+- [✅ ARDUINO-2BUTTONS](_projects/all-projects.md)
+- [📂 All projects](_projects/all-projects.md)
 
 ---
 
