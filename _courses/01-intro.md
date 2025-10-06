@@ -16,6 +16,8 @@ layout: course                # Какой шаблон использовать
 <div class="card">
   <h3>🔑 GMAIL.COM</h3>
   <p>Register on the website GMAIL.COM</p>
+  <p>Register on the website GMAIL.COM</p>
+  <p>Register on the website GMAIL.COM</p>
   <a href="https://mail.google.com/" class="button">GMAIL.COM</a>
 </div>
 
@@ -40,8 +42,9 @@ layout: course                # Какой шаблон использовать
 ---
 
 # ✅ RESULTS
-- e-mail login username@GMAIL.COM  
-- login on the website ARDUINO.CC
-- login on the website
+- e-mail login @GMAIL.COM  
+- login on the website GITHUB.COM
+- - login on the website ARDUINO.CC
+- login on the website WOKWI.COM
   
 ---
