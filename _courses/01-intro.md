@@ -20,16 +20,28 @@ layout: course                # Какой шаблон использовать
 </div>
 
 <div class="card">
+  <h3>🔑 GITHUB.COM</h3>
+  <p>Register on the website GITHUB.COM</p>
+  <a href="https://github.com/)" class="button">GITHUB.COM</a>
+</div>
+
+<div class="card">
   <h3>🔑 ARDUINO.CC</h3>
   <p>Register on the website ARDUINO.CC</p>
   <a href="https://login.arduino.cc/login?" class="button">ARDUINO.CC</a>
 </div>
 
+<div class="card">
+  <h3>🔑 WOKWI.COM</h3>
+  <p>Register on the website WOKWI.COM</p>
+  <a href="https://wokwi.com/" class="button">WOKWI.COM</a>
+</div>
+
 ---
 
 # ✅ RESULTS
-- register gmail.com  
-- register on the website
-- register on the website
+- e-mail login username@GMAIL.COM  
+- login on the website ARDUINO.CC
+- login on the website
   
 ---
