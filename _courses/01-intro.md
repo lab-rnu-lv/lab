@@ -14,14 +14,22 @@ layout: course                # Какой шаблон использовать
 
 
 <div class="card">
-  <h3>🔑 GMAIL</h3>
-  <p>Register on the website gmail.com.</p>
-  <a href="https://mail.google.com/" class="button">gmail.com</a>
+  <h3>🔑 GMAIL.COM</h3>
+  <p>Register on the website GMAIL.COM</p>
+  <a href="https://mail.google.com/" class="button">GMAIL.COM</a>
+</div>
+
+<div class="card">
+  <h3>🔑 ARDUINO.CC</h3>
+  <p>Register on the website ARDUINO.CC</p>
+  <a href="https://login.arduino.cc/login?" class="button">ARDUINO.CC</a>
 </div>
 
 ---
 
 # ✅ RESULTS
+- register gmail.com  
 - register on the website
-- 
+- register on the website
+  
 ---
