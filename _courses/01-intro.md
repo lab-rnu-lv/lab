@@ -16,7 +16,7 @@ layout: course                # Какой шаблон использовать
 <div class="card">
   <h3>🔑 GMAIL.COM</h3>
   <p>Register on the website GMAIL.COM (you can use the existing one)</p>
-  <p>Цill be required for registration in other services.</p>
+  <p>Will be required for registration in other services.</p>
    <a href="https://mail.google.com/" class="button" target="_blank" rel="noopener noreferrer">GMAIL.COM</a>
 </div>
 
@@ -43,7 +43,7 @@ layout: course                # Какой шаблон использовать
 # ✅ RESULTS
 - e-mail login @GMAIL.COM  
 - login on the website GITHUB.COM
-- - login on the website ARDUINO.CC
+- login on the website ARDUINO.CC
 - login on the website WOKWI.COM
   
 ---
