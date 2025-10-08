@@ -15,11 +15,17 @@ layout: course                # Какой шаблон использовать
 ## 💡	Idea 
 
 - Come up with a project idea
+  
 - Research similar projects
+  
 - Highlight what makes your idea unique
+  
 - Form a team of 2–5 students
+  
 - Assign clear roles within the team
+  
 - Create a project page (e.g., GitHub Pages)
+  
 - Write e-mail with link to 
 
 ## 📨 E-MAIL  <!-- e-mail -->
@@ -34,6 +40,6 @@ layout: course                # Какой шаблон использовать
   
 - Original project idea defined
 - Team formed with roles
-- Project page published online and send link
+- Project page published online and sent link
   
 ---
