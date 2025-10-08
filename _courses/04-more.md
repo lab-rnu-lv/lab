@@ -9,6 +9,8 @@ layout: course
 
 # 📋 DEVELOPMENT
 
+## ⚙️ Improve and Expand
+
 - Improve your prototype based on feedback
 
 - Add new features or better design
