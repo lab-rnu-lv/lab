@@ -11,7 +11,7 @@ layout: course                # Какой шаблон использовать
 <div class="card">
   <h3>📘 About project </h3>
   <p>The Arduino Escape Room:<br>
-The Arduino Escape Room is a small interactive game where players solve electronic puzzles to unlock a door. It uses sensors, buttons, lights, and a servo motor. When the right actions are done in sequence — like pressing buttons or scanning a card — the system opens the lock and plays a success sound. </p>
+is a small interactive game where players solve electronic puzzles to unlock a door. It uses sensors, buttons, lights, and a servo motor. When the right actions are done in sequence — like pressing buttons or scanning a card — the system opens the lock and plays a success sound. </p>
 </div>
 ---
 
