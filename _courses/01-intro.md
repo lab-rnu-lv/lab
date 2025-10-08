@@ -9,7 +9,7 @@ layout: course                # Какой шаблон использовать
 
 ---
 
-# 📅 PREPARATIONS
+# 📋 PREPARATIONS
 
 
 
