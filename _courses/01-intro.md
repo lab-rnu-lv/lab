@@ -1,9 +1,9 @@
 ---
-title: "1 INTRO"      # Название задания, будет отображаться в списке
-order: 1                      # Порядок отображения (очень важно для курса)
-deadline: 16/Oct/2025              # Длительность (можно вывести рядом)
-level: "beginner"            # Уровень (опционально)
-layout: course                # Какой шаблон использовать
+title: "1 INTRO"      
+order: 1                      
+deadline: 16/Oct/2025              
+level: "beginner"           
+layout: course                
 ---
 
 
