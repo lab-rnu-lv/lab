@@ -1,9 +1,9 @@
 ---
-title: "2 BASICS"      # Название задания, будет отображаться в списке
-order: 2                      # Порядок отображения (очень важно для курса)
-deadline: 23/Oct/2025              # Длительность (можно вывести рядом)
-level: "beginner"            # Уровень (опционально)
-layout: course                # Какой шаблон использовать
+title: "2 BASICS"      
+order: 2                      
+deadline: 23/Oct/2025              
+level: "beginner"            
+layout: course                
 ---
 
 
