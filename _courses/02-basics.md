@@ -1,53 +1,45 @@
 ---
-title: "2 BASICS"      # Название урока, будет отображаться в списке
-order: 2                      # Порядок отображения (очень важно для курса)
-deadline: 23/Oct/2025              # Длительность (можно вывести рядом)
-level: "beginner"            # Уровень (опционально)
-layout: course                # Какой шаблон использовать
+title: "2 BASICS"      
+order: 2                      
+deadline: 23/Oct/2025              
+level: "beginner"            
+layout: course                
 ---
 
-2 урок курса.
-
-# 👋 Welcome!
-
-Это сайт на **GitHub Pages**. Здесь вы найдёте информацию о проекте, полезные ссылки и подстраницы.
 
 ---
 
-## 📂 Разделы
+# 📋 LAUNCH
 
-<div class="card">
-  <h3>📘 О проекте</h3>
-  <p>Узнайте больше о цели, функциях и развитии проекта.</p>
-  <a href="index_1.html" class="button">Перейти</a>
-</div>
 
-<div class="card">
-  <h3>📬 Контакты</h3>
-  <p>Как со мной связаться, обратная связь и соцсети.</p>
-  <a href="index_2.html" class="button">Перейти</a>
-</div>
+## 💡	Idea 
 
----
+- Come up with a project idea
+  
+- Research similar projects
+  
+- Highlight what makes your idea unique
+  
+- Form a team of 2–5 students
+  
+- Assign clear roles within the team
+  
+- Create a project page (e.g., GitHub Pages)
+  
+- Write e-mail with link to 
 
-## 🖼 Галерея
+## 📨 E-MAIL  <!-- e-mail -->
 
-![Пример изображения](img/example.jpg)
-
----
-
-## 📌 Навигация
-
-- [Главная](index.html)
-- [О проекте](index_1.html)
-- [Контакты](index_2.html)
+  <div class="card">
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/email.jpg" alt="Email address" width="240">
+  </div>
 
 ---
 
-## 📅 Обновления
-
-- ✅ Добавлена разметка (24.06.2025)
-- 🚧 В разработке новая подстраница: *index_3.md*
-
+## ✅ RESULTS
+  
+- Original project idea defined
+- Team formed with roles
+- Project page published online and sent link
+  
 ---
-
