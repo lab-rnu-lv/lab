@@ -1,7 +1,7 @@
 ---
 title: "4 MORE"      
 order: 4                      
-deadline: 06/Dec/2025              
+deadline: 18/Dec/2025              
 level: "beginner"            
 layout: course                
 ---
