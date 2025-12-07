@@ -1,7 +1,7 @@
 ---
 title: "2 BASICS"      
 order: 2                      
-deadline: 23/Oct/2025              
+deadline: 20/Nov/2025              
 level: "beginner"            
 layout: course                
 ---
