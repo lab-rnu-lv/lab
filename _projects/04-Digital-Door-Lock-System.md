@@ -1,6 +1,6 @@
 ---
-title: "03 Smart Water Level Controller "      # Название, будет отображаться в списке
-order: 3                              # Порядок отображения (очень важно для курса)
+title: "04 Digital Door Lock System "      # Название, будет отображаться в списке
+order: 4                              # Порядок отображения (очень важно для курса)
 layout: course                         # Какой шаблон использовать
 ---
 
@@ -10,15 +10,15 @@ layout: course                         # Какой шаблон использ�
 
 <div class="card">
   <h3>📘 About project </h3>
-  <p>Smart Water Level Controller:<br>
- The main focus of this project is automation with minimal user input, using a two-button interface for simplicity and reliability.</p>
+  <p>Digital Door Lock System:<br>
+ The Digital Door Lock System is a password-based security system that uses an Arduino Uno to control access. It replaces traditional mechanical keys with a numeric keypad and provides visual and sound feedback using LEDs, a buzzer, and an LCD display. Key Idea: Only users who enter the correct password can unlock the door; otherwise, the system remains locked.</p>
 </div>
 ---
 
 ## 🔗 PROJECT WEB-PAGE
 <div class="card">
 <h3>📘Project WEB-page link</h3>
-    <a href="https://adwaith11366.github.io/waterlvl/" class="button">Project page</a>
+    <a href="https://adwaith11366.github.io/waterlvl/](https://claude.ai/public/artifacts/e0407101-3122-47e3-8045-a24f267cdd10" class="button">Project page</a>
 </div>
 
 ---
