@@ -25,6 +25,7 @@ layout: course                         # Какой шаблон использ�
 
 ## 🚀 STATUS
 🟢	Active 
+
 ---
 
 ## 📅 TIMELINE
