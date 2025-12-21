@@ -25,10 +25,7 @@ title: LAB
 - Friday 			13:30 – 16:00
 
   Please find the current schedule with details (Google Calendar)
-  
-    <div class="card">
-<a href="https://calendar.google.com/calendar/u/0?cid=bGFiLnJudS5sdkBnbWFpbC5jb20"></a>
-    </div>
+  [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bGFiLnJudS5sdkBnbWFpbC5jb20)
 
 ---
 
