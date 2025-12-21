@@ -9,7 +9,9 @@ title: LAB
 ##  💬 Community <!-- WhatsApp Community -->
 
   <div class="card">
-     <img src="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp" alt="WhatsApp Community" width="240">
+     <a href="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp">
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/LAB-101.jpg" alt="WhatsApp LAB-101" width="32" height="32">
+     Join WhatsApp Community</a>    
   </div>
 
 ---
@@ -24,6 +26,9 @@ title: LAB
   Please find the current schedule with details (Google Calendar)
   
     <div class="card">
+
+
+
      <img src="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp" alt="Google Calendar" width="240">
   </div>
 
