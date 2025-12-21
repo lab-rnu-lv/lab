@@ -1,7 +1,7 @@
 ---
 title: "3 ADVANCED"      
 order: 3                      
-deadline: 30/Oct/2025              
+deadline: 04/Dec/2025              
 level: "beginner"            
 layout: course                
 ---

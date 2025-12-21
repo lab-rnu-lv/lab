@@ -14,6 +14,10 @@ To participate, please write (fill the topic "IoT Projects 2025")
   <div class="card">
      <img src="https://lab-rnu-lv.github.io/lab/assets/images/email.jpg" alt="Email address" width="240">
   </div>
+and
+  <div class="card">
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/email_amit.jpg" alt="Email address" width="240">
+  </div>
 
 ---
 
