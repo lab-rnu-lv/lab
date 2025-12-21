@@ -23,7 +23,7 @@ Here is information about the projects
 
 
 ## 📌 News  <!-- last 3 news -->
-- ✅ LAB web-site start (01.10.2025)
+- ✅ Add 06 Arduino-based obstacle avoidance smart car (21.12.2025)
 - [📂 All news](_news/all-news.md)
 
 ---
