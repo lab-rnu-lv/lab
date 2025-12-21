@@ -14,14 +14,15 @@ title: LAB
 
 ---
 ##  🗓️ Schedule   <!-- Schedule -->
-December until 23.12.2025
-Monday   		12:00 – 17:00
-Tuesday 		11:00 – 16:00
-Wednesday 	        11:00 – 16:00
-Thursday 		12:00 – 17:00
-Friday 			13:30 – 16:00
+# December until 23.12.2025
+- Monday   		12:00 – 17:00
+- Tuesday 		11:00 – 16:00
+- Wednesday 	        11:00 – 16:00
+- Thursday 		12:00 – 17:00
+- Friday 			13:30 – 16:00
 
   Please find the current schedule with details (Google Calendar)
+  
     <div class="card">
      <img src="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp" alt="Google Calendar" width="240">
   </div>
