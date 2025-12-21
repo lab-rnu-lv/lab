@@ -18,7 +18,7 @@ layout: course                         # Какой шаблон использ�
 ## 🔗 PROJECT WEB-PAGE
 <div class="card">
 <h3>📘Project WEB-page link</h3>
-    <a href="https://adwaith11366.github.io/waterlvl/](https://claude.ai/public/artifacts/e0407101-3122-47e3-8045-a24f267cdd10" class="button">Project page</a>
+    <a href="https://claude.ai/public/artifacts/e0407101-3122-47e3-8045-a24f267cdd10" class="button">Project page</a>
 </div>
 
 ---
