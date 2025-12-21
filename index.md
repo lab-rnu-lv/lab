@@ -19,23 +19,7 @@ title: LAB
 ##  🗓️ Schedule   <!-- Schedule -->
 ## December until 23.12.2025
 
-undefined
-Monday 12:00 – 17:00
-Tuesday 11:00 – 16:00
-Wednesday 11:00 – 16:00
-Thursday 12:00 – 17:00
-Friday 13:30 – 16:00
-undefined
-
   Please find the current schedule with details [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bGFiLnJudS5sdkBnbWFpbC5jb20)
-| Day       | Time          |
-|-----------|---------------|
-| Monday    | 12:00 – 17:00 |
-| Tuesday   | 11:00 – 16:00 |
-| Wednesday | 11:00 – 16:00 |
-| Thursday  | 12:00 – 17:00 |
-| Friday    | 13:30 – 16:00 |
-
   
 ---
 
