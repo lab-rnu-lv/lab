@@ -9,9 +9,10 @@ title: LAB
 ##  💬 Community <!-- WhatsApp Community -->
 
   <div class="card">
+     
      <a href="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp">
-     <img src="https://lab-rnu-lv.github.io/lab/assets/images/LAB-101.jpg" alt="WhatsApp LAB-101" width="32" height="32">
-     Join WhatsApp Community</a>    
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/LAB-101.jpg" alt="WhatsApp LAB-101" width="64" height="64">
+     Join WhatsApp Community </a>    
   </div>
 
 ---
