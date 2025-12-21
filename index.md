@@ -5,28 +5,22 @@ title: LAB
 
 # 👋 Welcome!
 
+<!-- 
 ---
 ##  💬 Community <!-- WhatsApp Community -->
-
+<!--
   <div class="card">
-     <img src="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp" alt="WhatsApp Community" width="240">
+     <a href="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp">
+     <img src="https://lab-rnu-lv.github.io/lab/assets/images/LAB-101.jpg" alt="WhatsApp LAB-101" width="64" height="64">
+     Join WhatsApp Community </a>    
   </div>
-
+-->
 ---
 ##  🗓️ Schedule   <!-- Schedule -->
-# December until 23.12.2025
-- Monday   		12:00 – 17:00
-- Tuesday 		11:00 – 16:00
-- Wednesday 	        11:00 – 16:00
-- Thursday 		12:00 – 17:00
-- Friday 			13:30 – 16:00
+## December until 23.12.2025
 
-  Please find the current schedule with details (Google Calendar)
+  Please find the current schedule with details [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bGFiLnJudS5sdkBnbWFpbC5jb20)
   
-    <div class="card">
-     <img src="https://chat.whatsapp.com/HfVkOnmfJ2M5BrSvVhV2Jp" alt="Google Calendar" width="240">
-  </div>
-
 ---
 
 ## 📘 Courses
