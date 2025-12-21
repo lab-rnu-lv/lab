@@ -18,7 +18,7 @@ layout: course                         # Какой шаблон использ�
 ## 🔗 PROJECT WEB-PAGE
 <div class="card">
 <h3>📘Project WEB-page link</h3>
-    <a href="[https://](https://eleonora777666.github.io/Robotica-Project_Adruino/)" class="button">Project page</a>
+    <a href="[https://eleonora777666.github.io/Robotica-Project_Adruino)" class="button">Project page</a>
 </div>
 
 ---
