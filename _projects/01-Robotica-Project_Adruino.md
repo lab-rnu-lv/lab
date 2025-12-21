@@ -24,10 +24,11 @@ layout: course                         # Какой шаблон использ�
 ---
 
 ## 🚀 STATUS
-
+🟢	Active 
 ---
 
 ## 📅 TIMELINE
+✅ (18.12.2025) Start project web-site
 
 
 
