@@ -11,7 +11,7 @@ layout: course                         # Какой шаблон использ�
 <div class="card">
   <h3>📘 About project </h3>
   <p>Solar-Powered Smart Home Security System:<br>
- This project implements an interactive function for an Arduino-based educational robot kit. The main objective is to play different sounds (melodies or tones) upon each press of the yellow button mounted on the main control board. </p>
+  </p>
 </div>
 ---
 
