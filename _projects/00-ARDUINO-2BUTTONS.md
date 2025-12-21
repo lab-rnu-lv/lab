@@ -26,6 +26,7 @@ After every 10 pairs of button presses, the average value will be displayed on t
 ---
 
 ## 🚀 STATUS
+✅	Done
 <div class="card">
 <h3>📘Participant of exhibition</h3>
     <a href="https://ismaitm.lv/archive/isma-itm-conference-2024/)" class="button">ISMA IT&M Conference 2024</a>
