@@ -10,8 +10,8 @@ layout: course                         # Какой шаблон использ�
 
 <div class="card">
   <h3>📘 About project </h3>
-  <p>Arduino-Car-Game:<br>
- 
+  <p>Arduino Car Game:<br>
+ A simple Arduino-based car game: move the car up/down to avoid obstacles. Collision ends the game.
     </p>
 </div>
 ---
@@ -19,7 +19,7 @@ layout: course                         # Какой шаблон использ�
 ## 🔗 PROJECT WEB-PAGE
 <div class="card">
 <h3>📘Project WEB-page link</h3>
-    <a href="https://raajkiller007.github.io/-Arduino-Obstacle-Avoidance-Car" class="button">Project page</a>
+    <a href="https://mishaaaaab.github.io/arduino-car-game/" class="button">Project page</a>
 </div>
 
 ---
