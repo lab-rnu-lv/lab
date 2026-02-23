@@ -12,7 +12,7 @@ layout: course
 # 📋 LAB LAN
 
 <div class="card">
-  <h3>🛠️ Network Patch Cables</h3>
+  <h3>💻 PING Command</h3>
   <p>See PING Command - Network Troubleshooting video instructions</p>
      <a href="https://www.youtube.com/watch?v=IIicPE38O-s" class="button" target="_blank" rel="noopener noreferrer">PING Command</a>
 </div>
